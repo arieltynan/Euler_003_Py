@@ -1,3 +1,6 @@
+# Euler Problem 003
+# Solved January 2021
+
 # Largest prime factor
 # Largest prime factor of 600851475143
 
@@ -12,7 +15,8 @@ while numb > 1:
         highfact = count #count val is new highest factor
         numb = numb/count #pf is reduced by factor
         count = count - 1 #checks again for same factor (i.e. 4->2->1)
-        print("The highest factor is:", highfact)
-        print("Remaining value: ", numb)
 
     count = count + 1 # to next factor
+
+print("The highest factor is:", highfact)
+# print("Remaining value: ", numb)
